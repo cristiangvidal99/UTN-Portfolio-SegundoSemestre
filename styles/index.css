@@ -1,5 +1,4 @@
 * {
-    font-family: 'Courier New', Courier, monospace;
     font-size: 1rem;
     color: white;
 }
@@ -20,15 +19,16 @@ h3 {
     text-align: start;
     font-weight: bold;
 }
+/* Navbar */
 .navigation {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 2rem;
+    gap: 1.3rem;
     font-size: 1.2rem;
     list-style: none;
-    background-color: rgb(11, 80, 54);
     padding: 1rem;
+    margin: 0;
 }
 .navigation a {
     text-decoration: none;
@@ -41,6 +41,22 @@ h3 {
     border-radius: 0.5px;
     box-shadow: 0 0 0.5rem rgba(0, 0, 0, 0.5);
 }
+/* Hero */
+.hero {
+    display: flex!important;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 600px;
+    padding: 2rem;
+    border: 1px solid white;
+    border-radius: 30px;
+}
+.img {
+    width: 200px;
+    border-radius: 30px;
+}
+/* Experiencia */
 .experiencia-container {
     display: flex;
     justify-content: center;
