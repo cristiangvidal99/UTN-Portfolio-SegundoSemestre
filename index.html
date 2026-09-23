@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description"
+        content="Portfolio de desarrollador fullstack con diseño inspirado en la naturaleza y la vida salvaje." />
+    <meta name="theme-color" content="#1b3a2b" />
+    <title>🌱 Cristian Vidal · Portfolio Fullstack</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600;9..144,700&family=Nunito+Sans:wght@400;500;600;700&display=swap"
+        rel="stylesheet" />
+    <link rel="stylesheet" href="styles/styles.css" />
+</head>
+
+<body>
+    <!-- Header / Navegación -->
+    <header class="site-header">
+        <nav class="nav container" aria-label="Navegación principal">
+            <input type="checkbox" id="nav-toggle" class="nav-toggle" hidden />
+            <label for="nav-toggle" class="nav-burger" aria-label="Abrir menú">
+                <span></span><span></span><span></span>
+            </label>
+
+            <ul class="nav-links">
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#sobre-mi">Sobre mí</a></li>
+                <li><a href="#habilidades">Habilidades</a></li>
+                <li><a href="#proyectos">Proyectos</a></li>
+                <li><a href="li" class="nav-cta">Contacto</a></li>
+                <li><a href="https://www.linkedin.com/in/cristiangabrielvidal99/" target="_blank"
+                        class="nav-cta">Linkedin</a></li>
+                <li><a href="https://github.com/cristiangabrielvidal99" target="_blank" class="nav-cta">Github</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Hero -->
+        <section id="inicio" class="hero">
+            <img src="assets/hero-forest.png" alt="" class="hero-bg" aria-hidden="true" />
+            <div class="hero-overlay" aria-hidden="true"></div>
+            <div class="container hero-content">
+                <p class="eyebrow">Desarrollador Fullstack</p>
+                <h1 class="hero-title text-balance">Cristian Vidal - Desarrollador</h1>
+                <p class="hero-lead text-pretty">
+                    Desarrollador Full Stack, amante de la naturaleza y la vida silvestre. Argentina 🇦🇷 🧉
+                </p>
+                <div class="hero-actions">
+                    <a href="#sobre-mi" class="btn btn-primary">Sobre Mi</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Sobre mí -->
+        <section id="sobre-mi" class="section about">
+            <div class="container about-grid">
+                <div class="about-media">
+                    <img src="assets/yo.jpg" alt="Cristian Vidal - Desarrollador Fullstack" />
+                    <span class="about-badge">🧉</span>
+                </div>
+                <div class="about-text">
+                    <p class="section-eyebrow">Sobre mí</p>
+                    <h2 class="section-title text-balance">Desarrollador y entusiaste de la fotografia y naturaleza</h2>
+                    <p class="text-pretty">
+                        Desarrollador de software de Argentina, enfocado en construir aplicaciones web, explorar el
+                        mundo open source y aprender mediante proyectos reales.
+                        Trabajo principalmente con .NET, Node.js, React y TypeScript, con experiencia en desarrollo
+                        full-stack, APIs, bases de datos y entornos Linux.
+                        Fuera del desarrollo de software, me interesan la naturaleza, la biodiversidad, la fotografía de
+                        fauna y la observación de aves
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Habilidades -->
+        <section id="habilidades" class="section skills">
+            <div class="container">
+                <div class="section-head">
+                    <p class="section-eyebrow">Habilidades</p>
+                    <h2 class="section-title text-balance">Mi stack tecnologico</h2>
+
+                </div>
+                <div class="skills-grid">
+                    <article class="skill-card">
+                        <div class="skill-icon" aria-hidden="true">
+                            <svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor"
+                                stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+                                <rect x="3" y="3" width="18" height="18" rx="2" />
+                                <path d="M8 12h8M8 8h8M8 16h5" />
+                            </svg>
+                        </div>
+                        <h3>Frontend</h3>
+                        <ul class="tag-list">
+                            <li>React</li>
+                            <li>Next.js</li>
+                            <li>TypeScript</li>
+                            <li>Tailwind</li>
+                            <li>Jquery</li>
+                        </ul>
+                    </article>
+
+                    <article class="skill-card">
+                        <div class="skill-icon" aria-hidden="true">
+                            <svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor"
+                                stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+                                <ellipse cx="12" cy="5" rx="8" ry="3" />
+                                <path
+                                    d="M4 5v6c0 1.66 3.58 3 8 3s8-1.34 8-3V5M4 11v6c0 1.66 3.58 3 8 3s8-1.34 8-3v-6" />
+                            </svg>
+                        </div>
+                        <h3>Backend</h3>
+                        <ul class="tag-list">
+                            <li>Node.js</li>
+                            <li>.NET</li>
+                            <li>SQL Server</li>
+                            <li>Oracle</li>
+                        </ul>
+                    </article>
+
+                    <article class="skill-card">
+                        <div class="skill-icon" aria-hidden="true">
+                            <svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor"
+                                stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+                                <path
+                                    d="M12 2a7 7 0 0 0-4 12.7V17a2 2 0 0 0 2 2h4a2 2 0 0 0 2-2v-2.3A7 7 0 0 0 12 2Z" />
+                                <path d="M9 22h6" />
+                            </svg>
+                        </div>
+                        <h3>DevOps</h3>
+                        <ul class="tag-list">
+                            <li>Docker</li>
+                        </ul>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- Proyectos Clase 3 -->
+        <section id="proyectos" class="section projects">
+            <div class="container">
+                <div class="section-head">
+                    <h2 class="section-title text-balance"> Proyectos personales</h2>
+                </div>
+                <div class="projects-grid">
+                    <article class="project-card">
+                        <div class="project-media">
+                            <img src="assets/Birdwatch-img.png"
+                                alt="Río serpenteando a través de una selva verde vista desde el aire" />
+                        </div>
+                        <div class="project-body">
+                            <span class="project-tag">Fullstack Open Source</span>
+                            <h3>Birdwatch-argentina</h3>
+                            <p class="text-pretty">Plataforma web para explorar y visualizar información sobre aves y
+                                biodiversidad de Argentina, combinando datos provenientes de APIs públicas con
+                                información almacenada y procesada por la propia aplicación.</p>
+                            <ul class="tag-list">
+                                <li>React</li>
+                                <li>Node.js con Express</li>
+                                <li>Sequelize</li>
+                                <li>TypeScript</li>
+                                <li>CSS / Tailwind CSS</li>
+                                <li>Leaflet</li>
+                                <li>Docker</li>
+                            </ul>
+                            <a href="https://github.com/cristiangvidal99/birdwatch-argentina" target="_blank"
+                                class="project-link">Ver Repositorio</a>
+                        </div>
+                    </article>
+                    <article class="project-card">
+                        <div class="project-media">
+                            <img src="assets/template.jpg"
+                                alt="Un diagrama isométrico 3D de alta tecnología que ilustra la arquitectura de un backend moderno." />
+                        </div>
+                        <div class="project-body">
+                            <span class="project-tag">Template Backend</span>
+                            <h3>Template-Express-JWT-MySQL-Sequelize-Typescript</h3>
+                            <p class="text-pretty">Plantilla base de arquitectura Backend modular y escalable, diseñada
+                                para agilizar el desarrollo de aplicaciones web robstas con Node.js y TypeScript.
+                                Incluye autenticación segura mediante tokens JWT, persistencia y modelado de datos
+                                relacionales con Sequelize ORM sobre MySQL, y tipado estático estricto para un código
+                                limpio y mantenible.</p>
+                            <ul class="tag-list">
+                                <li>Express</li>
+                                <li>JWT</li>
+                                <li>MySQL</li>
+                                <li>Sequelize</li>
+                                <li>Typescript</li>
+                            </ul>
+                            <a href="https://github.com/cristiangvidal99/Template-Express-JWT-MySQL-Sequelizy-Typescript"
+                                target="_blank" class="project-link">Ver Repositorio</a>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contacto -->
+        <section id="contacto" class="section contact">
+            <div class="container contact-inner">
+                <div class="section-head">
+                    <p class="section-eyebrow">Contacto</p>
+                    <h2 class="section-title text-balance">Plantemos algo juntos</h2>
+                </div>
+                <form class="contact-form" action="#" method="post" novalidate>
+                    <div class="field">
+                        <label for="nombre">Nombre</label>
+                        <input type="text" id="nombre" name="nombre" placeholder="Tu nombre" required />
+                    </div>
+                    <div class="field">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" placeholder="tucorreo@ejemplo.com" required />
+                    </div>
+                    <div class="field field-full">
+                        <label for="mensaje">Mensaje</label>
+                        <textarea id="mensaje" name="mensaje" rows="5" placeholder="Cuéntame sobre tu proyecto..."
+                            required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary field-full">Enviar mensaje</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="site-footer">
+        <div class="container footer-inner">
+            <a href="#inicio" class="brand brand-footer">
+                <span>Selva<strong>Dev</strong></span>
+            </a>
+            <p class="footer-copy">© 2026 SelvaDev. Hecho con raíces y código.</p>
+            <ul class="footer-social" aria-label="Redes sociales">
+                <li><a href="#" aria-label="GitHub">
+                        <svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor">
+                            <path
+                                d="M12 .5A11.5 11.5 0 0 0 .5 12a11.5 11.5 0 0 0 7.86 10.92c.58.1.79-.25.79-.56v-2c-3.2.7-3.88-1.37-3.88-1.37-.53-1.34-1.3-1.7-1.3-1.7-1.06-.72.08-.71.08-.71 1.17.08 1.79 1.2 1.79 1.2 1.04 1.78 2.73 1.27 3.4.97.1-.75.4-1.27.73-1.56-2.56-.29-5.26-1.28-5.26-5.7 0-1.26.45-2.3 1.2-3.1-.13-.3-.52-1.48.1-3.08 0 0 .97-.31 3.18 1.18a11 11 0 0 1 5.8 0c2.2-1.49 3.17-1.18 3.17-1.18.63 1.6.24 2.78.12 3.08.75.8 1.19 1.84 1.19 3.1 0 4.43-2.7 5.4-5.28 5.69.42.36.79 1.06.79 2.14v3.17c0 .31.21.67.8.56A11.5 11.5 0 0 0 23.5 12 11.5 11.5 0 0 0 12 .5Z" />
+                        </svg>
+                    </a></li>
+                <li><a href="#" aria-label="LinkedIn">
+                        <svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor">
+                            <path
+                                d="M20.45 20.45h-3.56v-5.57c0-1.33-.03-3.04-1.85-3.04-1.86 0-2.14 1.45-2.14 2.94v5.67H9.35V9h3.42v1.56h.05c.48-.9 1.64-1.85 3.37-1.85 3.6 0 4.27 2.37 4.27 5.46v6.28ZM5.34 7.43a2.07 2.07 0 1 1 0-4.14 2.07 2.07 0 0 1 0 4.14ZM7.12 20.45H3.55V9h3.57v11.45ZM22.22 0H1.77C.8 0 0 .78 0 1.75v20.5C0 23.2.8 24 1.77 24h20.45c.98 0 1.78-.8 1.78-1.75V1.75C24 .78 23.2 0 22.22 0Z" />
+                        </svg>
+                    </a></li>
+                <li><a href="#" aria-label="Correo electrónico">
+                        <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor"
+                            stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+                            <rect x="2" y="4" width="20" height="16" rx="2" />
+                            <path d="m22 7-10 6L2 7" />
+                        </svg>
+                    </a></li>
+            </ul>
+        </div>
+    </footer>
+</body>
+
+</html>
