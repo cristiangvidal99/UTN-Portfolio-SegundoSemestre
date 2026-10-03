@@ -6,6 +6,7 @@ formspree("initForm", {
   formId: "xnpnvrvy",
 });
 
-form.addEventListener("submit", () => {
+form.addEventListener("submit", (e) => {
+    e.preventDefault();
   formspree("setSubmitButton", submitButton);
 });
